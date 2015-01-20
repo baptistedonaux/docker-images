@@ -1,0 +1,7 @@
+apiDoc:
+    image: baptistedonaux/apidoc
+    volumes:
+        - ".:/home/docker:rw"
+    environment:
+        - INPUT=/home/docker/src
+        - OUTPUT=/home/docker/doc
